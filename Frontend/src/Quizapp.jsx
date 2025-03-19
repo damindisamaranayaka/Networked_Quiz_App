@@ -17,7 +17,7 @@ export default function QuizApp() {
   });
 
   useEffect(() => {
-    const newSocket = io("http://192.168.247.51:3001"); 
+    const newSocket = io("http://localhost:3001"); 
     setSocket(newSocket);
 
    
